@@ -6,11 +6,11 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: 'input for artifact name: file(*.csv)'
+        description: input for artifact name - file(*.csv)
         type: str
 
       output_artifact:
-        description: 'output for artifact name: file(*.csv)'
+        description: output for artifact name - file(*.csv)
         type: str
 
       output_type:

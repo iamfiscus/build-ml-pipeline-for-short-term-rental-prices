@@ -62,7 +62,6 @@ def go(config: DictConfig):
                 ),
                 "main",
                 parameters={
-                    "tmp_dir": tmp_dir,
                     "input_artifact": "sample.csv:latest",
                     "output_artifact": "clean_sample.csv",
                     "output_type": "clean_sample",

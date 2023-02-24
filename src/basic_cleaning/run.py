@@ -48,14 +48,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact",
         type=str,
-        help="input for artifact name: file(*.csv)",
+        help="input for artifact name - file(*.csv)",
         required=True
     )
 
     parser.add_argument(
         "--output_artifact",
         type=str,
-        help="output for artifact name: file(*.csv)",
+        help="output for artifact name - file(*.csv)",
         required=True
     )
 
