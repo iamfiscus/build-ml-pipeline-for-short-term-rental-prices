@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--output_description",
-        type=str
+        type=str,
         help="output for artifact description",
         required=True
     )
