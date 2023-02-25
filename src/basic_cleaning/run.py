@@ -19,7 +19,7 @@ def go(args):
 
     # Download input artifact. This will also log that this script is using this
     # particular version of the artifact
-    # artifact_local_path = run.use_artifact(args.input_artifact).file()
+    artifact_local_path = run.use_artifact(args.input_artifact).file()
 
     ######################
     # iamfiscus           #
@@ -28,7 +28,7 @@ def go(args):
                 args.input_artifact)
     artifact_local_path = run.use_artifact(args.input_artifact).file()
 
-    logger.info("read csv at path: %s", args.artifact_local_path)
+    logger.info("read csv at path: %s", artifact_local_path)
     df = pd.read_csv(artifact_local_path)
 
     logger.info("removing outliers range(%i - %i)",

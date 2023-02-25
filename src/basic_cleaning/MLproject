@@ -7,19 +7,19 @@ entry_points:
 
       input_artifact:
         description: input for artifact name - file(*.csv)
-        type: str
+        type: string
 
       output_artifact:
         description: output for artifact name - file(*.csv)
-        type: str
+        type: string
 
       output_type:
         description: output for artifact type
-        type: str
+        type: string
 
       output_description:
         description: output for artifact description
-        type: str
+        type: string
 
       min_price:
         description: minimum price for outlier range
